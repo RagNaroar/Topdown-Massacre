@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Effect : MonoBehaviour
 {
-    public float Lifetime = 0.2f;
+    public float Lifetime = 0.1f;
 
     // Update is called once per frame
     void Start()

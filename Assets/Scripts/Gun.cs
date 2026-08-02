@@ -35,7 +35,6 @@ public class Gun : MonoBehaviour
             return;
         }
 
-        // Вспышка — один раз, с учётом offset'а поворота
         if (muzzleFlashPrefab != null)
         {
             Quaternion flashRotation = firePoint.rotation * Quaternion.Euler(muzzleFlashRotationOffset);
@@ -47,17 +46,14 @@ public class Gun : MonoBehaviour
 
         if (shootDirection.sqrMagnitude < 0.0001f)
         {
-            Debug.LogWarning("[Gun] shootDirection почти нулевой после обнуления Y — ствол смотрит вертикально.");
-            shootDirection = firePoint.forward; // fallback: не обнуляем Y в этом случае
+            shootDirection = firePoint.forward;
         }
 
         Vector3 startPos = firePoint.position;
         Vector3 endPos;
 
-        RaycastHit hit;
-        if (Physics.Raycast(startPos, shootDirection.normalized, out hit, range, hitLayers))
+        if (Physics.Raycast(startPos, shootDirection.normalized, out RaycastHit hit, range, hitLayers))
         {
-            Debug.Log($"[Gun] Попали в: {hit.transform.name}");
             endPos = hit.point;
         }
         else
@@ -65,15 +61,7 @@ public class Gun : MonoBehaviour
             endPos = startPos + shootDirection.normalized * range;
         }
 
-        Debug.Log($"[Gun] Shoot: start={startPos}, end={endPos}, DebugRayManager.Instance={(DebugRayManager.Instance != null)}");
-
-        if (DebugRayManager.Instance != null)
-        {
-            DebugRayManager.Instance.DrawRay(startPos, endPos, rayColor);
-        }
-        else
-        {
-            Debug.LogError("[Gun] DebugRayManager.Instance == null! Луч не будет нарисован.");
-        }
+        // Просто сообщаем о выстреле всем, кому интересно — без прямой зависимости от DebugRayManager
+        ShotEvents.RaiseShot(startPos, endPos, rayColor);
     }
 }
