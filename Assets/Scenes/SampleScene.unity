@@ -1612,7 +1612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec2dfd7a0caa5a845a8eb94ca1462c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gun
-  muzzleFlashRotationOffset: {x: 90, y: 0, z: 180}
+  muzzleFlashRotationOffset: {x: 90, y: 0, z: 0}
   damage: 25
   range: 100
   hitLayers:
