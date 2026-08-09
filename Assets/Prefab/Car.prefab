@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 719488550279296341}
   - component: {fileID: 4070071561696728225}
   - component: {fileID: 384686266810716925}
-  m_Layer: 0
+  - component: {fileID: 4209955924148802857}
+  m_Layer: 6
   m_Name: Sphere (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,6 +113,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4209955924148802857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104654759387580950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &1636735643337890282
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +139,8 @@ GameObject:
   - component: {fileID: 4714528564015706190}
   - component: {fileID: 649780386756344918}
   - component: {fileID: 364910437963442224}
-  m_Layer: 0
+  - component: {fileID: 8015293531324267602}
+  m_Layer: 6
   m_Name: Sphere (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,6 +240,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8015293531324267602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636735643337890282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &2300633584714867733
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +266,8 @@ GameObject:
   - component: {fileID: 8954189570890271656}
   - component: {fileID: 8707222165137586130}
   - component: {fileID: 4905419334655082116}
-  m_Layer: 0
+  - component: {fileID: 1143879662072799524}
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,6 +367,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1143879662072799524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2300633584714867733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &5527139989984581909
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +393,8 @@ GameObject:
   - component: {fileID: 2013208158824940541}
   - component: {fileID: 3354273683270447578}
   - component: {fileID: 3710657985703278718}
-  m_Layer: 0
+  - component: {fileID: 1360890342210316141}
+  m_Layer: 6
   m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -455,6 +501,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2, z: 1}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1360890342210316141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527139989984581909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &6795128419187132727
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +527,8 @@ GameObject:
   - component: {fileID: 6968787038090863091}
   - component: {fileID: 6821448428358916362}
   - component: {fileID: 7587366717547959863}
-  m_Layer: 0
+  - component: {fileID: 3604824973423846927}
+  m_Layer: 6
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -567,6 +628,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3604824973423846927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6795128419187132727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &8425930108589264399
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,7 +654,8 @@ GameObject:
   - component: {fileID: 6473035286180077903}
   - component: {fileID: 288719305031935626}
   - component: {fileID: 6892807019343718037}
-  m_Layer: 0
+  - component: {fileID: 8788573680128150237}
+  m_Layer: 6
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,6 +755,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8788573680128150237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425930108589264399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &8577612941129705700
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,7 +781,8 @@ GameObject:
   - component: {fileID: 7155968429234052250}
   - component: {fileID: 6537503492774237139}
   - component: {fileID: 549833857223162264}
-  m_Layer: 0
+  - component: {fileID: 2472027830842376410}
+  m_Layer: 6
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,6 +882,20 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2472027830842376410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577612941129705700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5
 --- !u!1 &8699307022554567433
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +908,8 @@ GameObject:
   - component: {fileID: 4688414109403324858}
   - component: {fileID: 2444248415041632025}
   - component: {fileID: 8986169168093855970}
-  m_Layer: 0
+  - component: {fileID: 2489765852764536100}
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -903,3 +1009,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2489765852764536100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8699307022554567433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77781ce8a697321489b8c290365c3faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
+  revealColor: {r: 0, g: 1, b: 1, a: 1}
+  revealDuration: 1.5

@@ -245,7 +245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &95051533
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,7 +371,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &132442448
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,7 +497,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &146026822
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,7 +623,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &156823044
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,8 +662,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2, z: 50}
-  m_Center: {x: -25, y: 1, z: 0}
+  m_Size: {x: 1, y: 2, z: 165}
+  m_Center: {x: -100, y: 1, z: 0}
 --- !u!65 &156823046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -687,8 +683,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2, z: 50}
-  m_Center: {x: 25, y: 1, z: 0}
+  m_Size: {x: 1, y: 2, z: 165}
+  m_Center: {x: 100, y: 1, z: 0}
 --- !u!65 &156823047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -708,8 +704,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 50, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: 25}
+  m_Size: {x: 200, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: 80}
 --- !u!65 &156823048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -729,8 +725,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 50, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: -25}
+  m_Size: {x: 200, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: -80}
 --- !u!4 &156823049
 Transform:
   m_ObjectHideFlags: 0
@@ -740,7 +736,7 @@ Transform:
   m_GameObject: {fileID: 156823044}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00023, y: 0, z: -0.33268}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -951,7 +947,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &223047467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1078,7 +1073,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!114 &231086568 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4986729552064586468, guid: 512a988b6e409e048a1390fcca54c3d0, type: 3}
@@ -1216,7 +1210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &325166788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,7 +1336,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1613,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &376208144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,7 +1739,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &388874067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,7 +1865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &398450617
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,7 +1991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &404815668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2129,7 +2117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,7 +2648,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &453512550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,7 +2774,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &462263163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,7 +2900,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &474836776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,7 +3026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &478871135
 GameObject:
   m_ObjectHideFlags: 0
@@ -3169,7 +3152,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &526160067
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,7 +3278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &555022424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3423,7 +3404,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &584408640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,7 +3530,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &593447699
 GameObject:
   m_ObjectHideFlags: 0
@@ -3677,7 +3656,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &618138776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,7 +3782,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &679515616
 GameObject:
   m_ObjectHideFlags: 0
@@ -3931,7 +3908,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &701610253
 GameObject:
   m_ObjectHideFlags: 0
@@ -4058,7 +4034,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &703357734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4314,7 +4289,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &738850956
 GameObject:
   m_ObjectHideFlags: 0
@@ -4441,7 +4415,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &744424852
 GameObject:
   m_ObjectHideFlags: 0
@@ -4568,7 +4541,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &820874865
 GameObject:
   m_ObjectHideFlags: 0
@@ -4695,7 +4667,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,7 +4842,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &843208867
 GameObject:
   m_ObjectHideFlags: 0
@@ -4998,7 +4968,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &870635027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5125,7 +5094,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &872858983
 GameObject:
   m_ObjectHideFlags: 0
@@ -5252,7 +5220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &895650520
 GameObject:
   m_ObjectHideFlags: 0
@@ -5379,7 +5346,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &931818069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,7 +5472,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &948430874
 GameObject:
   m_ObjectHideFlags: 0
@@ -5633,7 +5598,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &954660833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5760,7 +5724,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &961696315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,7 +5929,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &983100090
 GameObject:
   m_ObjectHideFlags: 0
@@ -6093,7 +6055,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1024368649
 GameObject:
   m_ObjectHideFlags: 0
@@ -6220,104 +6181,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
---- !u!1001 &1033060069
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 288719305031935626, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f1169a7b22ab37f49af2c34fba5f2ae2, type: 2}
-    - target: {fileID: 2444248415041632025, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f1169a7b22ab37f49af2c34fba5f2ae2, type: 2}
-    - target: {fileID: 3354273683270447578, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f1169a7b22ab37f49af2c34fba5f2ae2, type: 2}
-    - target: {fileID: 3710657985703278718, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3710657985703278718, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3710657985703278718, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_Center.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3710657985703278718, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_ProvidesContacts
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5527139989984581909, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_Name
-      value: Car
-      objectReference: {fileID: 0}
-    - target: {fileID: 6537503492774237139, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f1169a7b22ab37f49af2c34fba5f2ae2, type: 2}
-    - target: {fileID: 6821448428358916362, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f1169a7b22ab37f49af2c34fba5f2ae2, type: 2}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.418727
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.1599989
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 18.679224
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8707222165137586130, guid: 37a95319869a57840869c4d49556170f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f1169a7b22ab37f49af2c34fba5f2ae2, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 37a95319869a57840869c4d49556170f, type: 3}
 --- !u!1 &1045615901
 GameObject:
   m_ObjectHideFlags: 0
@@ -6571,7 +6434,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1078613810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6746,7 +6608,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1117152765
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,7 +6734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1176863036
 GameObject:
   m_ObjectHideFlags: 0
@@ -7000,7 +6860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1211408433
 GameObject:
   m_ObjectHideFlags: 0
@@ -7127,7 +6986,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1284224443
 GameObject:
   m_ObjectHideFlags: 0
@@ -7254,7 +7112,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1305754865
 GameObject:
   m_ObjectHideFlags: 0
@@ -7381,7 +7238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1383413162
 GameObject:
   m_ObjectHideFlags: 0
@@ -7508,7 +7364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1438047899
 GameObject:
   m_ObjectHideFlags: 0
@@ -7635,7 +7490,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1445287319
 GameObject:
   m_ObjectHideFlags: 0
@@ -7762,7 +7616,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1462213406
 GameObject:
   m_ObjectHideFlags: 0
@@ -7889,7 +7742,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1467896404
 GameObject:
   m_ObjectHideFlags: 0
@@ -8016,7 +7868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1470988649
 GameObject:
   m_ObjectHideFlags: 0
@@ -8143,7 +7994,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1486460526
 GameObject:
   m_ObjectHideFlags: 0
@@ -8270,7 +8120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1498863612
 GameObject:
   m_ObjectHideFlags: 0
@@ -8397,7 +8246,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1510107662
 GameObject:
   m_ObjectHideFlags: 0
@@ -8637,7 +8485,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1602184932
 GameObject:
   m_ObjectHideFlags: 0
@@ -8764,7 +8611,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1695554480
 GameObject:
   m_ObjectHideFlags: 0
@@ -8891,7 +8737,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1697796971
 GameObject:
   m_ObjectHideFlags: 0
@@ -9018,7 +8863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1737307103
 GameObject:
   m_ObjectHideFlags: 0
@@ -9145,7 +8989,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1751916833
 GameObject:
   m_ObjectHideFlags: 0
@@ -9272,7 +9115,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1776834359
 GameObject:
   m_ObjectHideFlags: 0
@@ -9399,7 +9241,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1797159135
 GameObject:
   m_ObjectHideFlags: 0
@@ -9526,7 +9367,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1807645562 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4542984063023618791, guid: 512a988b6e409e048a1390fcca54c3d0, type: 3}
@@ -9658,7 +9498,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1821036337 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1942987499520566739, guid: e9cce44299a35b3478828fcadc482f53, type: 3}
@@ -9815,7 +9654,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1891261388
 GameObject:
   m_ObjectHideFlags: 0
@@ -9942,7 +9780,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1900936736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10069,7 +9906,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1917592947
 GameObject:
   m_ObjectHideFlags: 0
@@ -10196,7 +10032,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1919405475
 GameObject:
   m_ObjectHideFlags: 0
@@ -10323,7 +10158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1962803951
 GameObject:
   m_ObjectHideFlags: 0
@@ -10450,7 +10284,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1998690449
 GameObject:
   m_ObjectHideFlags: 0
@@ -10577,7 +10410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2003865474
 GameObject:
   m_ObjectHideFlags: 0
@@ -10704,7 +10536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2010263876
 GameObject:
   m_ObjectHideFlags: 0
@@ -10831,7 +10662,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2024504973
 GameObject:
   m_ObjectHideFlags: 0
@@ -10958,7 +10788,67 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
+--- !u!1001 &2042524966
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1360890342210316141, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: revealDuration
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527139989984581909, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_Name
+      value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.25882
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.76564
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446178422218961923, guid: 37a95319869a57840869c4d49556170f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37a95319869a57840869c4d49556170f, type: 3}
 --- !u!1 &2054478246
 GameObject:
   m_ObjectHideFlags: 0
@@ -11085,7 +10975,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2062015996
 GameObject:
   m_ObjectHideFlags: 0
@@ -11212,7 +11101,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2071529559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11339,7 +11227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2072747738
 GameObject:
   m_ObjectHideFlags: 0
@@ -11466,7 +11353,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2108287320
 GameObject:
   m_ObjectHideFlags: 0
@@ -11593,7 +11479,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1001 &1157400384599527162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11673,6 +11558,6 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 703357736}
   - {fileID: 156823049}
-  - {fileID: 1033060069}
   - {fileID: 418029922}
   - {fileID: 961696318}
+  - {fileID: 2042524966}

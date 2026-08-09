@@ -4,7 +4,7 @@ using System.Collections;
 public class EchoRevealable : MonoBehaviour
 {
     public Color revealColor = Color.cyan;
-    public float revealDuration = 1.5f;
+    public const float revealDuration = 1.5f;
 
     private Renderer rend;
     private Material mat;
