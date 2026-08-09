@@ -8,6 +8,8 @@ public class GunShotAudio : MonoBehaviour
 
     void Update()
     {
+        if (PauseMenu.GameIsPaused) return;
+        
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             PlayShotSound();
