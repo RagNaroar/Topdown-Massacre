@@ -126,7 +126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &1636735643337890282
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +252,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &2300633584714867733
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +378,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &5527139989984581909
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,7 +511,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &6795128419187132727
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &8425930108589264399
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,7 +763,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &8577612941129705700
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +889,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
 --- !u!1 &8699307022554567433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,4 +1015,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EchoRevealable
   revealColor: {r: 0, g: 1, b: 1, a: 1}
-  revealDuration: 1.5
