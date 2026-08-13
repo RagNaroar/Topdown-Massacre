@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.AI;
 
 public class Gun : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class Gun : MonoBehaviour
     [Header("Gun Parameters")]
     public float damage = 25f;
     public float range = 100f;
+    public float knockback = 0.4f; // Сила отброса назад
     public LayerMask hitLayers;
     public Vector3 targetMouseWorldPos;
 
@@ -21,14 +23,12 @@ public class Gun : MonoBehaviour
 
     void Update()
     {
-        if(PauseMenu.GameIsPaused) return;
+        if (PauseMenu.GameIsPaused) return;
         
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             Shoot();
         }
-        
-        
     }
 
     void Shoot()
@@ -59,13 +59,44 @@ public class Gun : MonoBehaviour
         if (Physics.Raycast(startPos, shootDirection.normalized, out RaycastHit hit, range, hitLayers))
         {
             endPos = hit.point;
+
+            // 1. Наносим урон
+            Health targetHealth = hit.collider.GetComponentInParent<Health>();
+            if (targetHealth != null)
+            {
+                targetHealth.TakeDamage(damage);
+            }
+
+            // 2. Толкаем бота назад (импакт от пули)
+            ApplyKnockback(hit.collider.gameObject, shootDirection.normalized);
         }
         else
         {
             endPos = startPos + shootDirection.normalized * range;
         }
 
-        // Просто сообщаем о выстреле всем, кому интересно — без прямой зависимости от DebugRayManager
         ShotEvents.RaiseShot(startPos, endPos, rayColor);
     }
+
+    void ApplyKnockback(GameObject target, Vector3 direction)
+    {
+    // 1. Если бот передвигается через NavMeshAgent (наш случай)
+    NavMeshAgent agent = target.GetComponentInParent<NavMeshAgent>();
+    if (agent != null && agent.isOnNavMesh)
+    {
+        // Мгновенный резкий сдвиг назад по сетке на 40 см без долгого скольжения
+        agent.Move(direction * knockback);
+        return;
+    }
+
+    // 2. Если на боте висит физический Rigidbody
+    Rigidbody rb = target.GetComponentInParent<Rigidbody>();
+    if (rb != null && !rb.isKinematic)
+    {
+        // Гасим текущую скорость, чтобы он не летел по инерции, и даем короткий толчок
+        rb.linearVelocity = Vector3.zero;
+        rb.AddForce(direction * 2f, ForceMode.Impulse);
+    }
+    }
+
 }

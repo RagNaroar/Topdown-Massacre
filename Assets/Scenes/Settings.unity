@@ -219,6 +219,18 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2670920621617793756, guid: 35ed50e081e0cdb43babfd7007ca0bf1, type: 3}
+      propertyPath: channels.Array.data[0].DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670920621617793756, guid: 35ed50e081e0cdb43babfd7007ca0bf1, type: 3}
+      propertyPath: channels.Array.data[1].DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2670920621617793756, guid: 35ed50e081e0cdb43babfd7007ca0bf1, type: 3}
+      propertyPath: channels.Array.data[2].DefaultValue
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3225031626745102331, guid: 35ed50e081e0cdb43babfd7007ca0bf1, type: 3}
       propertyPath: m_Name
       value: Settings
