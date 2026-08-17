@@ -10,6 +10,10 @@ public class EnemyAttack : MonoBehaviour
     [Header("Target Settings")]
     public string playerTag = "Player";
 
+    [Header("Audio Settings")]
+    public AudioSource audioSource;
+    public AudioClip[] attackSounds; // можно несколько вариантов звука удара
+
     private float attackTimer;
     private Transform playerTransform;
     private Health playerHealth;
@@ -21,23 +25,19 @@ public class EnemyAttack : MonoBehaviour
 
     private void Update()
     {
-        // Если ссылка на игрока потеряна (например, при перезагрузке), ищем заново
         if (playerTransform == null || playerHealth == null)
         {
             FindPlayer();
             return;
         }
 
-        // Отсчитываем таймер перезарядки атаки
         if (attackTimer > 0f)
         {
             attackTimer -= Time.deltaTime;
         }
 
-        // Проверяем дистанцию до игрока
         float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
 
-        // Наносим урон, если бот подошел близко и кулдаун прошел
         if (distanceToPlayer <= attackRange && attackTimer <= 0f)
         {
             PerformAttack();
@@ -62,9 +62,18 @@ public class EnemyAttack : MonoBehaviour
             playerHealth.TakeDamage(damage);
             Debug.Log($"[EnemyAttack] Бот ударил игрока на {damage} HP! У игрока осталось: {playerHealth.currentHealth}");
         }
+
+        PlayAttackSound();
     }
 
-    // Отображение радиуса атаки в инспекторе (фиолетовая сфера при выделении)
+    private void PlayAttackSound()
+    {
+        if (audioSource == null || attackSounds.Length == 0) return;
+
+        AudioClip clip = attackSounds[Random.Range(0, attackSounds.Length)];
+        audioSource.PlayOneShot(clip);
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.magenta;

@@ -9,11 +9,10 @@ public class Health : MonoBehaviour
 
     [Header("Type")]
     public bool isPlayer = false;
-
-    [Header("Scene Settings (Only for Player)")]
-    public string gameOverSceneName = "GameOverScene";
-
     private bool isDead = false;
+
+    [Header("Game Over UI (Only for Player)")]
+    public GameObject panel;
 
     private void Awake()
     {
@@ -39,12 +38,13 @@ public class Health : MonoBehaviour
 
         if (isPlayer)
         {
-            // Сохраняем прожитое время между сценами
-            PlayerPrefs.SetFloat("LastSurvivalTime", GameTimer.SurvivalTime);
-            PlayerPrefs.Save();
-
-            // Переходим на сцену смерти
-            SceneManager.LoadScene(gameOverSceneName);
+            if (panel != null)
+            {
+            panel.SetActive(true);
+            Time.timeScale = 0f;
+            }
+            GetComponent<Gun>().enabled = false;
+            GetComponent<GunShotAudio>().enabled = false;
         }
         else
         {
