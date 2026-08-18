@@ -662,8 +662,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2, z: 165}
-  m_Center: {x: -100, y: 1, z: 0}
+  m_Size: {x: 1, y: 2, z: 100}
+  m_Center: {x: -25, y: 1, z: 0}
 --- !u!65 &156823046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -683,8 +683,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2, z: 165}
-  m_Center: {x: 100, y: 1, z: 0}
+  m_Size: {x: 1, y: 2, z: 100}
+  m_Center: {x: 28, y: 1, z: 0}
 --- !u!65 &156823047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -704,8 +704,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 200, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: 80}
+  m_Size: {x: 100, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: 30}
 --- !u!65 &156823048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -725,8 +725,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 200, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: -80}
+  m_Size: {x: 100, y: 2, z: 1}
+  m_Center: {x: 0, y: 1, z: -30}
 --- !u!4 &156823049
 Transform:
   m_ObjectHideFlags: 0
@@ -7640,9 +7640,9 @@ MonoBehaviour:
   - {fileID: 7207255752361284197, guid: deced606a1329e6dc944cd54b7a52835, type: 3}
   minSpawnRadius: 8
   maxSpawnRadius: 15
-  enemiesPerWave: 3
-  timeBetweenSpawns: 3
-  delayBeforeNextWave: 5
+  enemiesPerWave: 10
+  timeBetweenSpawns: 2
+  delayBeforeNextWave: 3
   navMeshSampleDistance: 5
 --- !u!4 &1323880993
 Transform:

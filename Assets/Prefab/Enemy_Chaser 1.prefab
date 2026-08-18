@@ -305,7 +305,7 @@ MonoBehaviour:
   pulseMoveSpeed: 3.5
   searchSpeed: 2
   chasePlayerSpeed: 4.5
-  totalSearchDuration: 45
+  totalSearchDuration: 50000
   searchRadius: 8
   waitAtSearchPoint: 1.5
 --- !u!114 &977909366507845621
