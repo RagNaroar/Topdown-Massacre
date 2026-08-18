@@ -33,6 +33,7 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        Camera.main.GetComponent<CameraController>().Shake();
         if (firePoint == null)
         {
             Debug.LogError("[Gun] firePoint не назначен!");
@@ -59,15 +60,12 @@ public class Gun : MonoBehaviour
         if (Physics.Raycast(startPos, shootDirection.normalized, out RaycastHit hit, range, hitLayers))
         {
             endPos = hit.point;
-
-            // 1. Наносим урон
             Health targetHealth = hit.collider.GetComponentInParent<Health>();
             if (targetHealth != null)
             {
                 targetHealth.TakeDamage(damage);
             }
 
-            // 2. Толкаем бота назад (импакт от пули)
             ApplyKnockback(hit.collider.gameObject, shootDirection.normalized);
         }
         else

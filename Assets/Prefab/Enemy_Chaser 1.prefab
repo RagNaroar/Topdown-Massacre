@@ -306,7 +306,7 @@ MonoBehaviour:
   searchSpeed: 2
   chasePlayerSpeed: 4.5
   totalSearchDuration: 50000
-  searchRadius: 8
+  searchRadius: 20
   waitAtSearchPoint: 1.5
 --- !u!114 &977909366507845621
 MonoBehaviour:
