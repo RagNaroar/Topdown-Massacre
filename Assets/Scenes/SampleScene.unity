@@ -6868,7 +6868,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1078613811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7062,9 +7062,9 @@ RectTransform:
   m_Father: {fileID: 418029923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1921, y: 912}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.5, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1114650237
 MonoBehaviour:
@@ -9144,7 +9144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 4.2059}
+  m_AnchoredPosition: {x: 0, y: 4.2058716}
   m_SizeDelta: {x: 630.967, y: 41.5882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488258786
@@ -9159,7 +9159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7c0fbf8c1d07bcc9b449131d35f0424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IntroLifetime
-  Lifetime: 5
+  Lifetime: 3
 --- !u!114 &1488258787
 MonoBehaviour:
   m_ObjectHideFlags: 0
