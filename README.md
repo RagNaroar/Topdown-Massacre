@@ -1,6 +1,7 @@
 Markdown 
 
 # Topdown-Massacre
+the game is about echo location, try to find your enemy faster than them
 
 ## Screenshots
 
